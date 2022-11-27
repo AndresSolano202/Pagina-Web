@@ -27,7 +27,8 @@ export class Componente1Component implements OnInit{
    
   }
 
-  
-  
-
+  navegacion3(){
+    this.router.navigate(['web6'])
+   
+  }
 }

@@ -4,6 +4,8 @@ import { Componente1Component } from 'src/Componentes/modulo1/componente1/compon
 import { Componente2Component } from 'src/Componentes/modulo2/componente2/componente2.component';
 import { Componente3Component } from 'src/Componentes/modulo3/componente3/componente3.component';
 import { Componente4Component } from 'src/Componentes/modulo4/componente4/componente4.component';
+import { Componente6Component } from 'src/Componentes/modulo6/componente6/componente6.component';
+
 
 const routes: Routes = [
   {
@@ -20,6 +22,10 @@ const routes: Routes = [
 
   {
     path: 'web4', component: Componente4Component
+  },
+
+  {
+    path: 'web6', component: Componente6Component
   }
 ];
 
