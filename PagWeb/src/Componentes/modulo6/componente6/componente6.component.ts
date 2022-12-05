@@ -22,8 +22,7 @@ export class Componente6Component implements OnInit {
   estadoCuadro = 'estado1';
   constructor(private router: Router) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
   navegacion(){
     this.router.navigate([''])
    

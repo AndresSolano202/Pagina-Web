@@ -1,13 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-componente1',
   templateUrl: './componente1.component.html',
-  styleUrls: ['./componente1.component.css'],
+  styleUrls: ['./componente1.component.css']
   
 })
 export class Componente1Component implements OnInit{
+
+
+
   constructor(private router: Router) { }
 
   ngOnInit(): void {
@@ -29,6 +33,11 @@ export class Componente1Component implements OnInit{
 
   navegacion3(){
     this.router.navigate(['web6'])
+   
+  }
+
+  navegacion4(){
+    this.router.navigate(['web5'])
    
   }
 }
